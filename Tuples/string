@@ -1,0 +1,5 @@
+t=('r','a','h','u','l')
+b=''
+for ch in t:
+    b+=ch
+print(b)
