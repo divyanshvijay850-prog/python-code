@@ -207,6 +207,24 @@
 #          print(" ",end=" ")
 #     print()
 
-
-
-
+num=5
+for i in range(1,num+1):
+    for j in range(1,num-i+1):
+        print(" ",end="")
+    for k in range(1,i+1):
+      if k==1 or i==k:
+        print("*",end=" ")
+      else:
+         print(" ",end=" ")
+    
+    print()
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print(" ",end="")
+    for k in range(1,num-i+1):
+        if k==1 or k==num-i:
+      
+            print("*",end=" ")
+        else:
+           print(" ",end=" ")
+    print()
