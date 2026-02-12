@@ -1,0 +1,23 @@
+# why we use object oriented programming
+# the problem whith procedural programming that we cant't handle each of variables or entities which are initialaised into the program
+#ex- you have to change the name of any student then you have to remember the student name variable. which would be difficult to remember that so that's
+# why we use the OOPS.
+
+# OOPS
+# we make blueprint of any object or entity which is  known as class
+# the real world entity  which we use into that class
+# that is object.
+
+class Teacher:
+    def __init__(self, name,expression):
+        self.name=name
+        self.expression=expression
+
+
+obj1=Teacher('RAHUL',4)
+obj2=Teacher('deepak',5)
+
+print(obj1.name)
+print(obj1.expression)
+print(obj2.name)
+print(obj2.expression)
