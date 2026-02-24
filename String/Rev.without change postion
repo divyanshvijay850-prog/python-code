@@ -1,0 +1,10 @@
+s = "This the sentence"
+
+rev_list = []
+
+for ch in s:
+    rev_list.insert(0, ch)   
+
+reverse_sentence = "".join(rev_list)
+
+print(reverse_sentence)
