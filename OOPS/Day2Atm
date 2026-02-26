@@ -1,0 +1,79 @@
+class Atm:
+    def __init__(self):
+        self.pin=" "
+        self.blance=0
+        self.menu()
+    
+    def menu(self):
+        user_input= input( """ How can I help you ?
+              1. press 1 to create pin
+              2. press 2 to change pin
+              3. press 3 to check blance
+              4. press 4 to withdraw
+              5 Anything to else exit
+              """)
+        
+        if user_input == '1':
+            self.pin_change()
+        elif user_input == '2':
+            self.change_pin()
+        elif user_input == '3':
+            self.check_blance()
+        elif user_input == '4':
+            self.withdraw()
+        else :
+            exit()
+        
+    def pin_change(self):
+        user=input("enter your pin :")
+        self.pin=user
+
+        check_blance = int(input("enter your blance: "))
+        self.blance=check_blance
+
+        print("pin change sucessfully")
+    
+    def change_pin(self):
+        old_pin=input("enter old pin")
+
+        if old_pin==self.pin:
+            new_pin=input("enter your new_pin")
+            self.pin=new_pin
+            print("pin change sucessfully")
+            self.menu()
+        else:
+            print("shi nhi h ")
+            self.menu()
+        
+    def check_blance(self):
+        user_pin=input("enter your pin")
+        if user_pin == self.pin:
+            print("your blance is ", self.blance)
+        else:
+            print("wrong pin bro.")
+        self.menu()
+    
+    def withdraw(self):
+        user_pin=input("enter your pin")
+
+        if user_pin==self.pin:
+            
+            amount = int(input("enter your amount"))
+            if amount <= self.blance:
+                self.blance=self.blance-amount
+                print("withdraw Successfully Remaining blance is",self.blance)
+            else :
+                print("bhai kam blance h")
+        else:
+            print("wrong pin")
+        
+        self.menu()
+        
+
+
+     
+
+        
+obj=Atm()
+
+        
