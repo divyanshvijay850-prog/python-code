@@ -1,0 +1,24 @@
+# Inheritance in summary
+
+# A class can inherit from another class.
+
+# Inheritance improves code reuse
+
+# Constructor, attributes, methods get inherited to the child class
+
+# The parent has no access to the child class
+
+# Private properties of parent are not accessible directly in child class
+
+# Child class can override the attributes or methods. This is called method overriding
+
+# super() is an inbuilt function which is used to invoke the parent class methods and constructor
+
+
+# Types of Inheritance
+
+# - Single Inheritance
+# - Multilevel Inheritance
+# - Hierarchical Inheritance
+# - Multiple Inheritance(Diamond Problem)
+# - Hybrid Inheritance
