@@ -1,0 +1,16 @@
+class Bankacount:
+    def __init__(self,accno,holder_name,amount):
+        self.accno=accno
+        self.holder_name=holder_name
+        self.__amount=amount    # private variable
+
+    def Amount_info(self):      #GETTER
+        return self.__amount
+      
+    def Amount_add(self,deposit):      # setter
+        self.__amount+=deposit
+    
+b1=Bankacount(25256,'Divyansh',101)
+print(b1.Amount_info())
+b1.Amount_add(600)
+print(b1.Amount_info())
