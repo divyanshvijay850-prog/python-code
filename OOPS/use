@@ -1,0 +1,28 @@
+# class Library: 
+# #   def __init__(self, id, name, price, book): 
+# #     self.id = id 
+# #     self.name = name 
+# #     self.price = price 
+# #     self.book = book 
+
+# # class Book(): 
+# #   def __init__(self, book_id, book_name, book_price, title, author, stock_available): 
+# #     self.__book_id = book_id 
+# #     self.book_name = book_name 
+# #     self.book_price = book_price
+# #     self.title = title 
+# #     self.author = author 
+# #     self.stock_available = stock_available
+
+# # class Person_detail():
+# #   def __init__(self,id, name):
+# #     self.id = id 
+# #     self.name =  name 
+  
+# #   def position_at_college():
+# #     pass 
+  
+# # class Student(Person_detail): 
+# #   def __init__(self, name, id, books_borrowed):
+# #     super().__init__(id, name)
+# #     self.books_borrowed = []
