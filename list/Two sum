@@ -1,0 +1,33 @@
+nums = [1,2,5,3,7,8]
+target = 9
+
+# class Solution:
+#     def twoSum(self, nums, target):
+#         d = {}
+
+#         for i in range(len(nums)):
+#             diff = target - nums[i]
+
+#             if diff in d:
+#                 return [d[diff], i]
+
+#             d[nums[i]] = i
+
+
+# obj = Solution()
+# print(obj.twoSum(nums, target))
+
+# li=[1,2,3,4,5]
+# target=7
+# start=0
+# end=len(li)-1
+# while start<end:
+#     s=li[start]+li[end]
+
+#     if s==target:
+#         print(start,end)
+#         break
+#     elif s<target:
+#         start+=1
+#     else:
+#         end-=1
