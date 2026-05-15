@@ -1,0 +1,29 @@
+# # s=[1,1,2,3,3,4,5]
+
+# # def remove_duplicate(s):
+# #     left=0
+# #     right=1
+
+# #     while right<len(s):
+# #         if s[right]!=s[left]:
+# #             left+=1
+# #             s[left]=s[right]
+# #         right+=1
+# #     return s[:left+1]
+
+# # print(remove_duplicate(s))
+
+
+# # def removeduplicate(arr):
+
+# #     left=0
+# #     right=1
+# #     while right<len(arr):
+# #         if arr[right]!=arr[left]:
+# #             left+=1
+# #             arr[left]=arr[right]
+# #         right+=1
+
+# #     return arr[:left+1]
+
+# # print(removeduplicate(arr))
