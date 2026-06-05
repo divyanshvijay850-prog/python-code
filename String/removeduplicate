@@ -1,0 +1,18 @@
+s = "aabbcdgs"
+
+def remove_dup(s):
+    arr = list(s)
+
+    r = 0
+    d = 1
+
+    while d < len(arr):
+        if arr[d] != arr[r]:
+            r += 1
+            arr[r] = arr[d]
+
+        d += 1
+
+    return "".join(arr[:r+1])
+
+print(remove_dup(s))
